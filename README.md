@@ -82,7 +82,7 @@ sudo systemctl status ocserv
   <img src="https://github.com/mcmag777/OpenConnect_Server_on_Ubuntu/blob/c4d7933422d4c3f9e6162e38b1709f3230e82c8c/systemctl.jpg" />
 </div>
 
-Не пугайтесь надписи $${\color{red}failed}$$ у нас еще не настроен конфиг сервера. В противном случае добавим ocserv в автозагрузку командой
+Не пугайтесь надписи $${\color{red}failed}$$ у нас еще не настроен конфиг сервера. Если же состояние **disable**, то добавим ocserv в автозагрузку командой
 ```bash
 sudo systemctl enable ocserv
 ```
